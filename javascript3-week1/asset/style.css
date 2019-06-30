@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+
+}
+#btnReload{
+    padding : 10px 13px;
+    border-radius: 13px;
+    color: blueviolet;
+    background-color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#content{
+    margin: 20px 300px;
+   
+}
+
+#image {
+    width: 80%;
+    border: solid 1px black;
+    margin-top: 20px;
+}
