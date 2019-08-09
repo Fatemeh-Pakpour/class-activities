@@ -45,4 +45,4 @@ function dispalyData(data) {
     `${data.name} has ${data.points.total} and ${data.badges.length}`
   );
 }
-module.exports.getProfile = getProfile;
+module.exports.get= getProfile;
