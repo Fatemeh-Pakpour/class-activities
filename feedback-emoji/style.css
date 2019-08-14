@@ -1,0 +1,9 @@
+body {
+    background: rgb(149, 212, 231);
+  }
+
+  .canvas{
+    border-radius: 5px;
+    border-color: blue;
+
+  }
