@@ -1,0 +1,26 @@
+https://www.youtube.com/watch?v=qsNxdukPc2U&t=399s
+what do print out these two console.log:
+console.log(2+"2")
+=> the answer is 22 because the plus operator can be applied to either when I have two numbers the operator add
+ them, when I do not have two numbers then the operator concatenate them.
+console.log(2-"2")
+=> the answer is 0 because minus is only the number operator it wont work on any string.it would 
+convert string to the number.
+============================================================================
+
+how to remove duplicate without using for loop and map and filter:
+using Set; The Set object lets you store unique values of any type,
+whether primitive values or object references.
+
+let nums = [1,3,3,4];
+num = new Set(nums);
+the num will be a set including =>{ 1, 2, 3 } but that is a new set and not array.
+and in order to converting to array we have to use spread operator 
+num = [...new Set(nums)]
+=============================================================================
+A block statement (or compound statement in other languages) is 
+used to group zero or more statements. The block is delimited by a pair of curly
+brackets and may optionally be labelled:
+
+
+
