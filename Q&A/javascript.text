@@ -22,5 +22,20 @@ A block statement (or compound statement in other languages) is
 used to group zero or more statements. The block is delimited by a pair of curly
 brackets and may optionally be labelled:
 
+===========================================================
+what is difference between var and let?
+var has been in js since the beginning but let was introduced in ES2015/ ES6.
+let has block scope, it means a variable define with let keyword will dei at the end of block is defining.
+var is a functional scope it does not respect all other blocks except function block. it will die at the 
+end of function.
+
+JavaScript Hoisting:
+https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-what-is-hoisting-in-javascript-a63c1b2267a1
+var get hoisted but let does not get hoisted. 
+if you create a var at the top level (global level), it would create a property on the global object
+in the case of a browser, this is likely to be the window object. So creating 
+var myName = 'Sunil'; can also be referenced by calling window.myName.
+However, if you wrote let newName = 'Sunny'; this would not be accessible 
+in the global window object — therefore, you would not be able to use window.newName as a reference to 'Sunny'.
 
 
