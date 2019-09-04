@@ -20,3 +20,7 @@ function hey() {
         var myName;
         hey();
         myName = 'Sunil';
+
+       console.log(6-'8'); 
+
+
