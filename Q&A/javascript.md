@@ -98,4 +98,15 @@ What if our unary minus operator is in front of a string that
 can’t be converted to a number? When JavaScript fails to produce a number, 
 we are left with NaN (Not A Number).
 =============================================================
+Arrow function :  one of the more popular features of ES6. === fat arrow functions
+It’s much shorter! We are able to omit the curly braces and the return statement
+===============================================================
+ES6 syntax:
+Array and object destructing
+Destruction makes the assignment of the values of an array or object to the new variable easier.
+===================
+const {name , age , lastName} = contact;
 
+console.log(name);
+console.log(age);
+console.log(lastName);
